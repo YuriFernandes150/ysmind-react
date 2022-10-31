@@ -1,0 +1,26 @@
+.painel-principal {
+    background-color: #f2480d;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.painel-esquerda {
+    align-self: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.painel-direita {
+    align-self: flex-end;
+}
+
+.painel-central {
+    align-self: center;
+    align-items: baseline;
+}
+
+.bt-menu {
+    width: 32px;
+    height: 32px;
+}
