@@ -8,7 +8,7 @@ function HeaderSite() {
 
             <div className="painel-esquerda">
 
-                <input className='bt-menu' type='image' src='/images/menu-aberto.png'/>
+                <input className='bt-menu' type='image' src='/images/bt-menu.png'/>
 
             </div>
             <div className="painel-meio">
