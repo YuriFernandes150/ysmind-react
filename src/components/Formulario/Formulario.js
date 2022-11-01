@@ -7,8 +7,6 @@ import { useState } from 'react';
 
 const Formulario = (props) => {
 
-    const itens = ['Desenvolvimento', 'Manutenção PC', 'Manutenção Android'];
-
     const [nome, setNome] = useState('');
     const [sobrenome, setSobrenome] = useState('');
     const [imagem, setImagem] = useState('');
@@ -17,7 +15,11 @@ const Formulario = (props) => {
 
     const salvar = (submitEvent) => {
         submitEvent.preventDefault();
-        props.onServiceSaved({ nome, sobrenome, imagem, servico })
+        props.onServiceSaved({ nome, sobrenome, imagem, servico });
+        setNome('');
+        setImagem('');
+        setSobrenome('')
+        
     }
 
     return (
@@ -51,7 +53,7 @@ const Formulario = (props) => {
                     label="Serviço"
                     value={servico}
                     onUpdate={servico => setServico(servico)}
-                    items={itens} />
+                    items={props.itens} />
                 <Button text="Salvar" />
             </form>
         </section>

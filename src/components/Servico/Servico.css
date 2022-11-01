@@ -1,12 +1,17 @@
 .servico {
     text-align: center;
     padding: 32px;
-    background-color: #ffc4b0;
+}
+
+.servico .servico-content {
+    display: flex;
+    padding: 10px;
+    
 }
 
 .servico h3 {
     font-size: 32px;
-    border-bottom: 4px solid #f2480d;
+    border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
 }

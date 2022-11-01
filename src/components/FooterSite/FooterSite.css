@@ -1,0 +1,27 @@
+.footer-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2480d;
+    padding: 10px;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-site .footer-site-social {
+    justify-content: space-between;
+}
+
+.footer-site .footer-site-social img {
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+}
+
+.footer-site .footer-site-devby {
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.footer-site .footer-site-devby h4 {
+    color: white;
+}
